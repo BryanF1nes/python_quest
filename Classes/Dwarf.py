@@ -12,8 +12,8 @@ class Dwarf(Character):
         self.engineering -= 4
         return print("All repaired!")
         
-    def getEngineering(self):
+    def get_engineering(self):
         return self.engineering
     
     def special_ability(self):
-        return print(f"Special abilities are: repair")
+        return print(f"Special abilities are: Repair")

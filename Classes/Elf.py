@@ -14,7 +14,7 @@ class Elf(Character):
         self.arrows -= 1
         return print(f"shoots arrow")
     
-    def getArrows(self):
+    def get_arrows(self):
         return self.arrows
     
     def special_ability(self):

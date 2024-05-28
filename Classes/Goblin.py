@@ -12,12 +12,12 @@ class Goblin(Character):
         self.mana -= 5
         return
     
-    def pickPocket(self, amountPickPocketed):
+    def pick_pocket(self, amountPickPocketed):
         self.currency += amountPickPocketed
         return self.currency
     
-    def getCurrency(self):
+    def get_currency(self):
         return self.currency
     
     def special_ability(self):
-        return print(f"Special abilities are: Pickpocket, and Cast Sleep!")
+        return print("Special abilities are: Pickpocket, and Cast Sleep")
